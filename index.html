@@ -129,6 +129,12 @@
       text-decoration: none;
       cursor: pointer;
     }
+
+    /* Make the 3 links in .intro--options have white text */
+    .intro--options a h3,
+    .intro--options a p {
+      color: #fff !important;
+    }
   </style>
 </head>
 <body>
@@ -171,7 +177,7 @@
         <!-- MAIN CONTENT -->
         <ul class="l-main-content main-content">
           
-          <!-- SECTION 1: HOME (unchanged) -->
+          <!-- SECTION 1: HOME -->
           <li class="l-section section section--is-active">
             <div class="intro">
               <div class="intro--banner">
@@ -180,14 +186,18 @@
                      style="max-width: 200px; border-radius: 50%; margin-top:20px;">
               </div>
               <div class="intro--options">
+                <!-- 1st link: Skills (UI/UX, plus mention Campus Connect) -->
                 <a href="#0">
-                  <h3>Campus Connect</h3>
-                  <p>Founder &amp; Developer: University social engagement app (React Native &amp; Firebase).</p>
+                  <h3>Skills</h3>
+                  <p>UI &amp; UX design, React Native, Firebase — as showcased in Campus Connect. Suverying and identifying user needs as shown in iterations of Campus Connect</p>
                 </a>
+                <!-- 2nd link: Projects (Campus Connect, etc.) -->
                 <a href="#0">
-                  <h3>Portfolio Projects</h3>
-                  <p>UI/UX design, front-end dev, and geospatial solutions.</p>
+                  <h3>Projects</h3>
+                  <p>Campus Connect full stack mobile app designs including all logos and layouts
+                  </p>
                 </a>
+                <!-- 3rd link: Objective (unchanged text style but white color) -->
                 <a href="#0">
                   <h3>Objective</h3>
                   <p>Seeking roles focusing on building user-centered applications.</p>
